@@ -1,0 +1,7 @@
+---
+
+- include_tasks: user.yml
+
+- include_tasks: java.yml
+
+- include_tasks: hadoop.yml

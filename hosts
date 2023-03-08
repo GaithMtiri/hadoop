@@ -1,0 +1,14 @@
+# Edit this file by following the given format:
+# =============================================
+#
+# [group-name] => master or workers
+# <public-ip-address>   hostname=<arbitrary-hostname> internal_ip=<internal-ip>
+# 
+# Example:
+
+[all]
+4.229.235.211
+
+[master]
+4.229.235.211
+

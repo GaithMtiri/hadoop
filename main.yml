@@ -1,0 +1,10 @@
+- hosts: all
+  remote_user: gaith
+  become: yes
+  vars_files:
+    - vars/all.yml
+    - vars/user.yml
+    - vars/hadoop.yml
+  roles:
+    - common
+
