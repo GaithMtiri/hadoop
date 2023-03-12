@@ -1,5 +1,6 @@
 - hosts: all
   remote_user: gaith
+  gather_facts: no
   become: yes
   vars_files:
     - vars/all.yml

@@ -21,4 +21,8 @@
   <name>mapreduce.framework.name</name>
    <value>yarn</value>
  </property>
+ <property> 
+    <name>mapreduce.application.classpath</name>
+    <value>/home/hadoop/hadoop/share/hadoop/mapreduce/*,/home/hadoop/hadoop/share/hadoop/mapreduce/lib/*,/home/hadoop/hadoop/share/hadoop/common/*,/home/hadoop/hadoop/share/hadoop/common/lib/*,/home/hadoop/hadoop/share/hadoop/yarn/*,/home/hadoop/hadoop/share/hadoop/yarn/lib/*,/home/hadoop/hadoop/share/hadoop/hdfs/*,/home/hadoop/hadoop/share/hadoop/hdfs/lib/*</value>
+</property>
 </configuration>

@@ -32,16 +32,16 @@
 
 
 - name: Copy Hadoop core-site.xml
-  template: src=core-site.xml dest={{ hadoop_config_path }} mode=644 owner={{ user }} group = {{ group }}
+  template: src=core-site.xml dest={{ hadoop_config_path }} mode=644 owner={{ user }}
 
 - name: Copy Hadoop hdfs-site.xml
-  template: src=hdfs-site.xml dest={{ hadoop_config_path }} mode=644 owner={{ user }} group = {{ group }}
+  template: src=hdfs-site.xml dest={{ hadoop_config_path }} mode=644 owner={{ user }}
 
 - name: Copy Hadoop mapred-site.xml
-  template: src=mapred-site.xml dest={{ hadoop_config_path }} mode=644 owner={{ user }} group = {{ group }}
+  template: src=mapred-site.xml dest={{ hadoop_config_path }} mode=644 owner={{ user }}
 
 - name: Copy Hadoop yarn-site.xml
-  template: src=yarn-site.xml dest={{ hadoop_config_path }} mode=644 owner={{ user }} group = {{ group }}
+  template: src=yarn-site.xml dest={{ hadoop_config_path }} mode=644 owner={{ user }}
 
 # - name: Copy Hadoop masters
 #   template: src=masters dest={{ hadoop_config_path }} mode=644 owner={{ user }} group = {{ group }}
