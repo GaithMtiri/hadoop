@@ -46,8 +46,8 @@ postgresql_databases:
     encoding: # defaults to 'UTF-8'
     template: # defaults to 'template0'
     login_host: # defaults to 'localhost'
-    login_password: hadoop
-    login_user: hadoop
+    login_password: 
+    login_user: 
     login_unix_socket: # defaults to 1st of postgresql_unix_socket_directories
     owner: # defaults to postgresql_user
     state: present
